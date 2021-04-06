@@ -1,13 +1,13 @@
 # BootcampX
 Bootcamp X is a Lighthouse labs app that allows the staff to help students and mentors by offering quick insight into data like assignment completion and the effectiveness of assistance requests. In this exercise you can find the SQL queries to get data from the database.
 
-##Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram (ERD)
 !["entity_relation-diagram"]
 (https://github.com/leightonchien/bootcampx/blob/master/docs/ERD.png)
 
-##The Entities
+## The Entities
 
-###Main Entities
+### Main Entities
 - students
 - cohorts
 - assignments
@@ -15,13 +15,13 @@ Bootcamp X is a Lighthouse labs app that allows the staff to help students and m
 - teachers
 - assistance_requests
 
-####Cohorts Attributes
+#### Cohorts Attributes
 - id: A unique identifier
 - name: The name of the cohort
 - start_date: The cohorts' start date
 - end_date: The cohorts' end date
 
-####Students Attributes
+#### Students Attributes
 - id: A unique identifier
 - name: The full name of the student
 - email: The students' email address
